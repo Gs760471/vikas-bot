@@ -4,34 +4,34 @@ from os import getenv
 
 
 # ------------------------------------------------
-API_ID = int(os.environ.get("API_ID", "22923037"))
+API_ID = int(os.environ.get("API_ID", ""))
 # ------------------------------------------------
-API_HASH = os.environ.get("API_HASH","dfb3666878b3851460a58461c5a50f5b")
+API_HASH = os.environ.get("API_HASH","")
 # ------------------------------------------------
-BOT_TOKEN = os.environ.get("BOT_TOKEN","7742756081:AAE0lniU60O-j3mqninLjeT9N4wSuklpRv4")
+BOT_TOKEN = os.environ.get("BOT_TOKEN","")
 # ------------------------------------------------
-BOT_USERNAME = os.environ.get("BOT_USERNAME", "@UY887_BOT")
-BOT_TEXT = "Kingextractor 🫵"
+BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
+BOT_TEXT = ""
 # ------------------------------------------------
-OWNER_ID = int(os.environ.get("OWNER_ID", "7576541713"))
+OWNER_ID = int(os.environ.get("OWNER_ID", ""))
 # ------------------------------------------------
 # //LOG CHANNEL ID 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002738877634"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
 
 # //FORCE_CHANNEL_ID
-CHANNEL_ID2 = int(os.environ.get("CHANNEL_ID2", "-1002812171506")) 
+CHANNEL_ID2 = int(os.environ.get("CHANNEL_ID2", "")) 
 # ------------------------------------------------
-MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://vikassonawale0:JWyQFas7vlG1bkaL@cluster0.beermge.mongodb.net/?retryWrites=true&w=majority")
+MONGO_URL = os.environ.get("MONGO_URL", "")
 # -----------------------------------------------
-PREMIUM_LOGS = int(os.environ.get("PREMIUM_LOGS", "-1002738877634"))
+PREMIUM_LOGS = int(os.environ.get("PREMIUM_LOGS", ""))
 # -----------------------------------------------
-join = '@Kingextractor'
+join = ''
 # -----------------------------------------------
 UNSPLASH_ACCESS_KEY = 'RabDRmuXXBobanmwwbvpP5LwoG4J8ox34y5Sstz-9jk'
 # -----------------------------------------------
 UNSPLASH_QUERY = 'animal baby'
 # -----------------------------------------------
-ADMIN_BOT_USERNAME = "@Vighneshsonawale" #without @
+ADMIN_BOT_USERNAME = "" #without @
 
 THUMB_URL = os.environ.get("THUMB_URL", "https://graph.org/file/040538eb20ce74f49d82a-8367e49a92b8289fc7.jpg")
 
